@@ -1,9 +1,10 @@
+const { ethers } = require("hardhat");
 
  require("dotenv").config();
- require("@nomiclabs/hardhat-ethers");
+ require("@nomiclabs/hardhat-waffle");
  
  module.exports = {
-   solidity: "0.8.0",
+   solidity: "0.8.10",
    defaultNetwork: "ropsten",
    networks: {
      hardhat: {},
